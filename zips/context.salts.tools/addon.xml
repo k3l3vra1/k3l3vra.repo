@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--suppress ALL -->
+<addon id="context.salts.tools" version="1.0.7" name="SALTS Context Tools" provider-name="k3l3vra">
+    <requires>
+        <import addon="xbmc.python" version="2.2.0"/>
+        <import addon="plugin.video.salts" version="1.0.65"/>
+        <import addon="script.module.tknorris.shared" version="0.0.1"/>
+    </requires>
+    <extension point="kodi.context.item" library="default.py">        
+      <item>
+        <label>SALTS Tools...</label>
+        <visible>!StringCompare(ListItem.dbid,)+[StringCompare(ListItem.dbtype,movie)|StringCompare(ListItem.dbtype,tvshow)|StringCompare(ListItem.dbtype,season)|StringCompare(ListItem.dbtype,episode)]</visible>
+      </item>
+    </extension>    
+    <extension point="xbmc.addon.metadata">
+        <summary>Library Context Menu Tools for SALTS</summary>
+        <description>This addon provides context menu items for the SALTS addon</description>
+        <platform>all</platform>
+        <website>http://tvaddons.ag/</website>
+		<forum>http://forums.tvaddons.ag/forums/180-TKNORRIS-RELEASE-REPOSITORY</forum>
+	</extension>
+</addon>

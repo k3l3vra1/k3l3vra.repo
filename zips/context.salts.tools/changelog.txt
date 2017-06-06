@@ -1,0 +1,37 @@
+[B]Version 1.0.7[/B]
+- Further improve widget parsing
+
+[B]Version 1.0.6[/B]
+- Handle widgets better
+
+[B]Version 1.0.5[/B]
+- Migration to shared lib
+
+[B]Version 1.0.4[/B]
+- Add support for custom widgets
+
+[B]Version 1.0.3[/B]
+- Add support for krypton's custom context menu
+- Only show menu from library items
+
+[B]Version 1.0.2[/B]
+- Better handle tv show years
+- Strip uid/pw from paths
+
+[B]Version 1.0.1[/B]
+- Add SRU to Seasons view
+
+[B]Version 1.0.0[/B]
+Log SALTS LI Failures
+
+[B]Version 0.0.4[/B]
+- Strip (XXXX) off movie & tvshow titles
+
+[B]Version 0.0.3[/B]
+- Switch between Select Source and Auto-Play based on current auto-play setting 
+
+[B]Version 0.0.2[/B]
+- Add scraper sort order and search to context menu
+
+[B]Version 0.0.1[/B]
+- Initial version
