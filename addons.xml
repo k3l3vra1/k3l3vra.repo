@@ -74,13 +74,13 @@
 	</extension>
 </addon>
 
-<addon id="repository.k3l3vra" name="K3l3vra's Repository" version="1.0.0" provider-name="k3l3vra">
+<addon id="repository.k3l3vra" name="K3l3vra's Repository" version="1.0.1" provider-name="k3l3vra">
     <extension point="xbmc.addon.repository" name="K3l3vra's Repository">
-	    <dir>
-	        <info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
-	        <checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
-	        <datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
-	    </dir>
+        <dir>
+	        <info compressed="false">https://github.com/zqfaen/tva-common/raw/master/addons.xml</info>
+	        <checksum>https://github.com/zqfaen/tva-common/raw/master/addons.xml.md5</checksum>
+	        <datadir zip="true">https://github.com/zqfaen/tva-common/raw/master/zips/</datadir>
+        </dir>
         <info compressed="false">http://github.com/k3l3vra1/k3l3vra.repo/raw/master/addons.xml</info>
         <checksum>http://github.com/k3l3vra1/k3l3vra.repo/raw/master/addons.xml.md5</checksum>
         <datadir zip="true">http://github.com/k3l3vra1/k3l3vra.repo/raw/master/zips/</datadir>
